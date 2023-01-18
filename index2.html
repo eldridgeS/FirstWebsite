@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>A Mongoose</title>
+    <style>
+        body {
+            background-color: black;
+            background-image: radial-gradient(white, transparent);
+        }
+        img {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Amonguss</h1>
+    <button id="reload-button">Click for New Crewmate</button>
+    <img src="{{ url_for('static', filename=img_file) }}" alt="image">
+    <audio src="{{ url_for('audio', filename=audio_file) }}" autoplay hidden></audio>
+    <script>
+     document.getElementById("reload-button").addEventListener("click", function(){
+        location.reload();
+        });
+    </script>
+
+
+    </audio>
+</body>
+</html>
