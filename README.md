@@ -1,6 +1,7 @@
 # FirstWebsite
 My first ever website made with ChatGPT.
 I was inspired by a video on Youtube about how I could make a functional (and somewhat useful) website on ChatGPT very quickly so I decided to try and add on to it. 
+Everytime you enter/reload the website, a random image appears accompanied by a sound effect. There is also a reload button for the user's convenience. 
 
 Software used:
 -VS Code
