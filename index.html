@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>A Mongoose</title>
+    <style>
+        body {
+            background-color: black;
+            background-image: radial-gradient(white, transparent);
+        }
+        img {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>AMONGSUSSYVENTS</h1>
+    <img src="{{ url_for('static', filename=img_file) }}" alt="image">
+    <audio src="{{ url_for('audio', filename=audio_file) }}" autoplay hidden></audio>
+
+    </audio>
+</body>
+</html>
